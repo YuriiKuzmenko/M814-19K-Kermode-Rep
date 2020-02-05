@@ -19,3 +19,17 @@ Description: The system shall create an invoice for the health insurance company
              be generated for the insurer listed on the patients record
  Originator: Office Manager (Carol)
    Comments: [Matthew Bird] 
+
+     REQ-ID: YK03
+Description: The system shall identify a patient
+       Type: Functional
+  Rationale: Before making the payment or arranging the next appointment the patient must be identified 
+ Originator: Receptionist, clinic's Office Manager (Carol), patient
+   Comments: [Yurii Kuzmenko] 
+   
+     REQ-ID: YK04
+Description: The system shall process an appointment request 
+       Type: Functional
+  Rationale: The system is able to arrange or re-arrange the date of the next patient's appointment
+ Originator: Receptionist, Therapist
+   Comments: [Yurii Kuzmenko]
