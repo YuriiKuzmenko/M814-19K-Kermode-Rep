@@ -19,3 +19,19 @@ Description: The system shall create an invoice for the health insurance company
              be generated for the insurer listed on the patients record
  Originator: Office Manager (Carol)
    Comments: [Matthew Bird] 
+
+     REQ-ID: MB03
+Description: The system shall provide patient details when they miss an appointment
+       Type: Functional
+  Rationale: If a patient misses an appointment the clinic should consider charging them for the appointment
+             or removing them from their list of patients.
+ Originator: Clinic Partner (Neil)
+   Comments: [Justin Barnes] 
+
+     REQ-ID: MB04
+Description: The system shall text a patient with their next appointment
+       Type: Functional
+  Rationale: If a patient is scheduled an appointment the clinic should send a text message to confirm the 
+             appointment increasing patient attendance.
+ Originator: Podiatrist (Brian)
+   Comments: [Justin Barnes] 
