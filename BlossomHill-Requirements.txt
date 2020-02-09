@@ -67,3 +67,16 @@ Description: The system shall record when therapists are available to see patien
  Originator: Office Manager (Carol)
    Comments: [Javan Slaney] 
 
+     REQ-ID: TMM001
+Description: The system shall record the amount that the patient needs to pay
+       Type: Functional
+  Rationale: The system needs to know the amount that the patient needs to pay in order to generate an invoice
+ Originator: Office Manager (Carol)
+   Comments: [Tamsyn Murphy]
+
+    REQ-ID: TMM02
+Description: The system shall record the amount that the patient has paid
+       Type: Functional
+  Rationale: The patient needs to be given an invoice once payment is successful and this will also be used to generate a report
+ Originator: Office Manager (Carol)
+   Comments: [Tamsyn Murphy]
