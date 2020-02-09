@@ -35,3 +35,18 @@ Description: The system shall text a patient with their next appointment
              appointment increasing patient attendance.
  Originator: Podiatrist (Brian)
    Comments: [Justin Barnes] 
+
+     REQ-ID: MB05
+Description: The product shall provide the next available appointment after a given duration for a given therapist.
+       Type: Functional
+  Rationale: To be able to offer the patient an appointment with the correct therapist after the requested duration 
+             so they can choose whether to accept it.
+ Originator: Office Manager (Carol)
+   Comments: [Ceri-anne Jackson] 
+
+     REQ-ID: MB06
+Description: The product shall record booked appointments.
+       Type: Functional
+  Rationale: To be able to keep track of which patients are booked in with which therapists and when.
+ Originator: Office Manager (Carol)
+   Comments: [Ceri-anne Jackson] 
