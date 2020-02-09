@@ -50,3 +50,20 @@ Description: The product shall record booked appointments.
   Rationale: To be able to keep track of which patients are booked in with which therapists and when.
  Originator: Office Manager (Carol)
    Comments: [Ceri-anne Jackson] 
+
+     REQ-ID: JS01
+Description: The system shall record how patient's treatments are funded 
+       Type: Functional
+  Rationale: The receptionists need to know if they should collect payment directly from the patient, or
+             arrange for an invoice to be raised to their private health insurance company 
+ Originator: Office Manager (Carol)
+   Comments: [Javan Slaney] 
+
+     REQ-ID: JS02
+Description: The system shall record when therapists are available to see patients
+       Type: Functional
+  Rationale: The receptionists need to be able to offer the patient a future appointment with the same
+             therapist, within the period specified on the treatment record form
+ Originator: Office Manager (Carol)
+   Comments: [Javan Slaney] 
+
