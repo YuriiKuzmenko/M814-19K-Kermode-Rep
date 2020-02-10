@@ -80,3 +80,18 @@ Description: The system shall record the amount that the patient has paid
   Rationale: The patient needs to be given an invoice once payment is successful and this will also be used to generate a report
  Originator: Office Manager (Carol)
    Comments: [Tamsyn Murphy]
+   
+     REQ-ID: ZKM01
+Description: The system shall find a registered patient's data.
+       Type: Functional
+  Rationale: The receptionists need to be able to identify the patient before booking an appointment or producing an invoice.
+ Originator: Office Manager (Carol)
+   Comments: [Zhi Kin Mok]   
+
+     REQ-ID: ZKM02
+Description: The system shall provide multiple suggestions for the next appointment around a given date in the schedule of the chosen therapist(s).
+       Type: Functional
+  Rationale: Multiple suggestions will provide an easier agreement with respect to the patient's agenda.
+			 The patient might have to see more than one therapist.
+ Originator: Office Manager (Carol)
+   Comments: [Zhi Kin Mok]   
