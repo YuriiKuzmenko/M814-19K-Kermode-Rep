@@ -20,7 +20,7 @@ Description: The system shall create an invoice for the health insurance company
  Originator: Office Manager (Carol)
    Comments: [Matthew Bird] 
 
-     REQ-ID: JB03
+     REQ-ID: JB01
 Description: The system shall provide patient details when they miss an appointment
        Type: Functional
   Rationale: If a patient misses an appointment the clinic should consider charging them for the appointment
@@ -28,7 +28,7 @@ Description: The system shall provide patient details when they miss an appointm
  Originator: Office Manager (Carol)
    Comments: [Justin Barnes] 
 
-     REQ-ID: JB04
+     REQ-ID: JB02
 Description: The system shall text a patient with their next appointment
        Type: Functional
   Rationale: If a patient is scheduled an appointment the clinic should send a text message to confirm the 
