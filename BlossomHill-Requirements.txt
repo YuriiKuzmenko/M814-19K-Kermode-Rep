@@ -114,6 +114,20 @@ Description: The system shall provide the available appointment date/times for a
      REQ-ID: JM02
 Description: The product shall generate an invoice to the patient’s insurer upon completion of a treatment if the patient is covered by health insurance 
        Type: Functional
-  Rationale: If the patient is covered by health insurance, an invoice will need to be issued to the insurer to recoup the cost of the treatmen
+  Rationale: If the patient is covered by health insurance, an invoice will need to be issued to the insurer to recoup the cost of the treatment
  Originator: Office Manager (Carol) 
-   Comments: [John Murphy] 
+   Comments: [John Murphy]
+
+     REQ-ID: FE01
+Description: The product should determine the best slot available for a patient consultation.
+       Type: Functional
+  Rationale: So that therapists optimally have a full day of work.
+ Originator: Office manager
+   Comments: [Fabrice Eichenberger]
+
+     REQ-ID: FE02
+Description: The product shall interface the system producing the health insurance invoices.
+       Type: Functional
+  Rationale: In order to transmit the bill to health insurance easily.
+ Originator: Neil
+   Comments: [Fabrice Eichenberger]
