@@ -144,4 +144,18 @@ Description: The system shall record the type of patients symptom
        Type: Functional
   Rationale: The therapist should know patients symptom previously  to give appropriate treatment.
  Originator: Office Manager (Carol)
-   Comments: [Keisuke Funatsu]   
+   Comments: [Keisuke Funatsu]  
+
+     REQ-ID: NT01
+Description: Find an alternate appointment for booking
+       Type: Functional
+  Rationale: If the user isnt available at the sugestted time, the system needs to be able to provide an alternative appointment
+ Originator: Receptionist
+   Comments: [Nicky Temperley]  
+
+     REQ-ID: NT02
+Description: Update users appointment record once confirmed
+       Type: Functional
+  Rationale: The user needs to have a reminder of when their next appointment is
+ Originator: Receptionist
+   Comments: [Nicky Temperley]  
