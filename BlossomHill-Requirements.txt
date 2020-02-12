@@ -136,4 +136,18 @@ Description: The system shall record the type of patients symptom
        Type: Functional
   Rationale: The therapist should know patients symptom previously  to give appropriate treatment.
  Originator: Office Manager (Carol)
-   Comments: [Keisuke Funatsu]   
+   Comments: [Keisuke Funatsu]
+   
+        REQ-ID: YK01
+Description: The system shall identify a patient
+       Type: Functional
+  Rationale: Before making the payment or arranging the next appointment the patient must be identified 
+ Originator: Receptionist, clinic's Office Manager (Carol), patient
+   Comments: [Yurii Kuzmenko] 
+   
+     REQ-ID: YK02
+Description: The system shall process an appointment request 
+       Type: Functional
+  Rationale: The system is able to arrange or re-arrange the date of the next patient's appointment
+ Originator: Receptionist, Therapist
+   Comments: [Yurii Kuzmenko]
