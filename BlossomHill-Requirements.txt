@@ -36,14 +36,6 @@ Description: The system shall text a patient with their next appointment
  Originator: Office Manager (Carol)
    Comments: [Justin Barnes] 
 
-     REQ-ID: JB03
-Description: The appointment system shall post a batch of expected invoices into the acounting system.
-       Type: Functional
-  Rationale: The appointment system needs to update the accounting system when requested with invoice information, 
-             allowing the accounting system to generate invoices.
- Originator: Office Manager (Carol)
-   Comments: [Justin Barnes] 
-
      REQ-ID: MB05
 Description: The product shall provide the next available appointment after a given duration for a given therapist.
        Type: Functional
