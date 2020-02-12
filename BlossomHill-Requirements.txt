@@ -131,3 +131,17 @@ Description: The product shall interface the system producing the health insuran
   Rationale: In order to transmit the bill to health insurance easily.
  Originator: Neil
    Comments: [Fabrice Eichenberger]
+
+     REQ-ID: KF01
+Description: The system shall record therapist type or category.
+       Type: Functional
+  Rationale: So that patients are able to find appropriate therapist.
+ Originator: Office Manager (Carol)
+   Comments: [Keisuke Funatsu]   
+
+     REQ-ID: KF02
+Description: The system shall record the type of patients symptom
+       Type: Functional
+  Rationale: The therapist should know patients symptom previously  to give appropriate treatment.
+ Originator: Office Manager (Carol)
+   Comments: [Keisuke Funatsu]   
