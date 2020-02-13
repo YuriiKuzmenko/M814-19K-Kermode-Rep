@@ -159,3 +159,17 @@ Description: Update users appointment record once confirmed
   Rationale: The user needs to have a reminder of when their next appointment is
  Originator: Receptionist
    Comments: [Nicky Temperley]  
+
+     REQ-ID:RH01
+Description:The system shall produce a report to view the list of patients for a season
+       Type:Functional
+  Rationale:To save time in finding records for the treatment
+ Originator:Neil and Office Manager
+   Comments: [Rahisha Hosker] 
+
+ REQ-ID:RH02
+Description:The system shall produce a report for the no shows for appointments that did not get cancelled
+       Type:Functional
+  Rationale:To make sure that therapist time is used efficiently
+ Originator:Neil and Office Manager
+   Comments: [Rahisha Hosker] 
