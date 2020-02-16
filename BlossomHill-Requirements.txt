@@ -85,7 +85,7 @@ Description: The system shall record the amount that the patient needs to pay
     REQ-ID: TMM02
 Description: The system shall record the amount that the patient has paid
        Type: Functional
-  Rationale: The patient needs to be given an invoice once payment is successful and this will also be used to generate a report
+  Rationale: The patient needs to be given an invoice once payment is successful as proof of payment
  Originator: Office Manager (Carol)
    Comments: [Tamsyn Murphy]
    
