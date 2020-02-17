@@ -12,14 +12,6 @@ Description: The system shall allow an admin user to record details of an appoin
  Originator: Office Manager (Carol)
    Comments: [Matthew Bird] 
    
-     REQ-ID: MB02
-Description: The system shall create an invoice for the health insurance company on the patients record
-       Type: Functional
-  Rationale: If a patient is paying for their treatment via a health insurance company invoices will need to
-             be generated for the insurer listed on the patients record
- Originator: Office Manager (Carol)
-   Comments: [Matthew Bird] 
-
      REQ-ID: JB01
 Description: The system shall provide patient details when they miss an appointment
        Type: Functional
@@ -27,22 +19,6 @@ Description: The system shall provide patient details when they miss an appointm
              or removing them from their list of patients.
  Originator: Office Manager (Carol)
    Comments: [Justin Barnes] 
-
-     REQ-ID: JB02
-Description: The system shall text a patient with their next appointment
-       Type: Functional
-  Rationale: If a patient is scheduled an appointment the clinic should send a text message to confirm the 
-             appointment increasing patient attendance.
- Originator: Office Manager (Carol)
-   Comments: [Justin Barnes] 
-
-     REQ-ID: MB05
-Description: The product shall provide the next available appointment after a given duration for a given therapist.
-       Type: Functional
-  Rationale: To be able to offer the patient an appointment with the correct therapist after the requested duration 
-             so they can choose whether to accept it.
- Originator: Office Manager (Carol)
-   Comments: [Ceri-anne Jackson] 
 
      REQ-ID: MB06
 Description: The product shall record booked appointments.
@@ -88,34 +64,12 @@ Description: The system shall find a registered patient's data.
  Originator: Office Manager (Carol)
    Comments: [Zhi Kin Mok]   
 
-     REQ-ID: ZKM02
-Description: The system shall provide multiple suggestions for the next appointment around a given date in the schedule of the chosen therapist(s).
-       Type: Functional
-  Rationale: Multiple suggestions will provide an easier agreement with respect to the patient's agenda.
-			 The patient might have to see more than one therapist.
- Originator: Office Manager (Carol)
-   Comments: [Zhi Kin Mok]   
-
      REQ-ID: JM01
 Description: The system shall provide the available appointment date/times for a given therapist within a specified timescale 
        Type: Functional
   Rationale: Following a patient’s treatment, the clinic needs to arrange a suitable date for the next appointment in line with the therapist’s directions 
  Originator: Office Manager (Carol) 
    Comments: [John Murphy] 
-
-     REQ-ID: JM02
-Description: The product shall generate an invoice to the patient’s insurer upon completion of a treatment if the patient is covered by health insurance 
-       Type: Functional
-  Rationale: If the patient is covered by health insurance, an invoice will need to be issued to the insurer to recoup the cost of the treatment
- Originator: Office Manager (Carol) 
-   Comments: [John Murphy]
-
-     REQ-ID: FE01
-Description: The product should determine the best slot available for a patient consultation.
-       Type: Functional
-  Rationale: So that therapists optimally have a full day of work.
- Originator: Office manager
-   Comments: [Fabrice Eichenberger]
 
      REQ-ID: FE02
 Description: The product shall interface the system producing the health insurance invoices.
@@ -137,14 +91,7 @@ Description: The system shall record the type of patients symptom
   Rationale: The therapist should know patients symptom previously  to give appropriate treatment.
  Originator: Office Manager (Carol)
    Comments: [Keisuke Funatsu]
-   
-        REQ-ID: YK01
-Description: The system shall identify a patient
-       Type: Functional
-  Rationale: Before making the payment or arranging the next appointment the patient must be identified 
- Originator: Receptionist, clinic's Office Manager (Carol), patient
-   Comments: [Yurii Kuzmenko] 
-   
+      
      REQ-ID: YK02
 Description: The system shall process an appointment request 
        Type: Functional
