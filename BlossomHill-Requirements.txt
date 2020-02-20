@@ -200,5 +200,18 @@ Description: The system shall allow a receptionist to record details of a paymen
 Type: Functional
 Rationale: When a treatment is completed the details of the payment taken from the patient need to be recorded on the system
 Originator: Office Manager (Carol)
-Comments: [Andy Mather] 
+Comments: [Andy Mather]
 
+     REQ-ID: YK01
+Description: The system shall identify a patient
+       Type: Functional
+  Rationale: Before making the payment or arranging the next appointment the patient must be identified 
+ Originator: Receptionist, clinic's Office Manager (Carol), patient
+   Comments: [Yurii Kuzmenko] 
+
+     REQ-ID: YK02
+Description: The system shall process an appointment request 
+       Type: Functional
+  Rationale: The system is able to arrange or re-arrange the date of the next patient's appointment
+ Originator: Receptionist, Therapist
+   Comments: [Yurii Kuzmenko]
